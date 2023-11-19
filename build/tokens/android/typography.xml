@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Sun, 19 Nov 2023 15:43:25 GMT
+-->
+<resources>
+  <string name="typography_global_font_family_01">Montserrat</string>
+  <string name="typography_global_font_weights_300">Light</string>
+  <string name="typography_global_font_weights_400">Regular</string>
+  <string name="typography_global_font_weights_500">Medium</string>
+  <string name="typography_global_font_weights_600">SemiBold</string>
+  <string name="typography_global_font_weights_700">Bold</string>
+  <string name="typography_global_font_weights_700_i">Bold Italic</string>
+  <string name="typography_global_font_weights_600_i">SemiBold Italic</string>
+  <string name="typography_global_font_weights_500_i">Medium Italic</string>
+  <string name="typography_global_font_weights_400_i">Italic</string>
+  <string name="typography_global_font_weights_300_i">Light Italic</string>
+  
+</resources>

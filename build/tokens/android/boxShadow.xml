@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Sun, 19 Nov 2023 15:43:25 GMT
+-->
+<resources>
+  <string name="elevation_elevation_01">(Color(0xFF242424), Offset(0f, 0f), 16f)</string>
+  <string name="elevation_elevation_02">(Color(0xFF242424), Offset(0f, 0f), 24f)</string>
+  <string name="elevation_elevation_03">(Color(0xFF242424), Offset(0f, 0f), 32f)</string>
+  <string name="elevation_elevation_04">(Color(0xFF242424), Offset(0f, 0f), 40f)</string>
+  
+</resources>

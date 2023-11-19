@@ -1,0 +1,22 @@
+
+// StyleDictionaryTypography.h
+//
+
+// Do not edit directly
+// Generated on Sun, 19 Nov 2023 15:43:25 GMT
+
+
+#import <Foundation/Foundation.h>
+
+
+extern StyleDictionaryTypographyFamily const TypographyGlobalFontFamily01;
+extern StyleDictionaryTypographyFamily const TypographyGlobalFontWeights300;
+extern StyleDictionaryTypographyFamily const TypographyGlobalFontWeights400;
+extern StyleDictionaryTypographyFamily const TypographyGlobalFontWeights500;
+extern StyleDictionaryTypographyFamily const TypographyGlobalFontWeights600;
+extern StyleDictionaryTypographyFamily const TypographyGlobalFontWeights700;
+extern StyleDictionaryTypographyFamily const TypographyGlobalFontWeights700I;
+extern StyleDictionaryTypographyFamily const TypographyGlobalFontWeights600I;
+extern StyleDictionaryTypographyFamily const TypographyGlobalFontWeights500I;
+extern StyleDictionaryTypographyFamily const TypographyGlobalFontWeights400I;
+extern StyleDictionaryTypographyFamily const TypographyGlobalFontWeights300I;

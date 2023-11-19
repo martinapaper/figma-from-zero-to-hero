@@ -1,0 +1,31 @@
+{
+    "name": "inps-design-system-design-token",
+    "version": "5.0.0",
+    "description": "Repository di base per trasformare i token di progettazione json dal plugin figma design token tramite la directory di stile amazon.",
+    "main": "index.js",
+    "dependencies": {
+        "colorfuls": "^1.0.2",
+        "fs-extra": "^10.0.1",
+        "style-dictionary": "^3"
+    },
+    "devDependencies": {
+        "jest": "^27.0.6",
+        "ts-jest": "^27.0.3",
+        "@types/jest": "^26.0.23"
+    },
+    "scripts": {
+        "start": "npm run transform-tokens",
+        "transform-tokens": "node ./transformTokens.js",
+        "test": "jest tests --coverage=false"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/INPS-it/sirio-design-token"
+    },
+    "author": "INPS",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/INPS-it/sirio-design-token/issues"
+    },
+    "homepage": "https://github.com/INPS-it/sirio-design-token#readme"
+}

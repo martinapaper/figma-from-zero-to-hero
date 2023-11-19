@@ -1,0 +1,231 @@
+{
+    "source": [
+        "tokens/design-tokens-to-convert.json"
+    ],
+    "platforms": {
+        "scss": {
+            "transformGroup": "custom/scss",
+            "buildPath": "build/tokens/scss/",
+            "files": [{
+                "destination": "_variables.scss",
+                "format": "scss/variables"
+            }]
+        },
+        "less": {
+            "transformGroup": "custom/less",
+            "buildPath": "build/tokens/less/",
+            "files": [{
+                "destination": "_variables.less",
+                "format": "less/variables"
+            }]
+        },
+        "css": {
+            "transformGroup": "custom/css",
+            "buildPath": "build/tokens/css/",
+            "files": [{
+                "destination": "_variables.css",
+                "format": "css/variables",
+                "options": {
+                    "showFileHeader": false
+                }
+            }]
+        },
+        "json-flat": {
+            "transformGroup": "js",
+            "buildPath": "build/tokens/json/",
+            "files": [{
+                "destination": "styles.json",
+                "format": "json/flat"
+            }]
+        },
+        "ios": {
+            "transformGroup": "ios",
+            "buildPath": "build/tokens/ios/",
+            "files": [{
+                    "destination": "StyleDictionaryColor.h",
+                    "format": "ios/colors.h",
+                    "className": "StyleDictionaryColor",
+                    "type": "StyleDictionaryColorName",
+                    "filter": {
+                        "type": "color"
+                    }
+                },
+                {
+                    "destination": "StyleDictionaryColor.m",
+                    "format": "ios/colors.m",
+                    "className": "StyleDictionaryColor",
+                    "type": "StyleDictionaryColorName",
+                    "filter": {
+                        "type": "color"
+                    }
+                },
+                {
+                    "destination": "StyleDictionarySize.h",
+                    "format": "ios/static.h",
+                    "className": "StyleDictionarySize",
+                    "type": "float",
+                    "filter": {
+                        "category": "size"
+                    }
+                },
+                {
+                    "destination": "StyleDictionarySize.m",
+                    "format": "ios/static.m",
+                    "className": "StyleDictionarySize",
+                    "type": "float",
+                    "filter": {
+                        "category": "size"
+                    }
+                },
+                {
+                    "destination": "StyleDictionaryTypography.h",
+                    "format": "ios/static.h",
+                    "className": "StyleDictionaryTypography",
+                    "type": "StyleDictionaryTypographyFamily",
+                    "filter": {
+                        "category": "typography"
+                    }
+                },
+                {
+                    "destination": "StyleDictionaryTypography.m",
+                    "format": "ios/static.m",
+                    "className": "StyleDictionaryTypography",
+                    "type": "StyleDictionaryTypographyFamily",
+                    "filter": {
+                        "category": "typography"
+                    }
+                },
+                {
+                    "destination": "StyleDictionaryBoxShadow.m",
+                    "format": "ios/static.m",
+                    "className": "StyleDictionaryBoxShadow",
+                    "type": "StyleDictionaryBoxShadowName",
+                    "filter": {
+                        "type": "boxShadow"
+                    }
+                },
+                {
+                    "destination": "StyleDictionaryBoxShadow.h",
+                    "format": "ios/static.h",
+                    "className": "StyleDictionaryBoxShadow",
+                    "type": "StyleDictionaryBoxShadowName",
+                    "filter": {
+                        "type": "boxShadow"
+                    }
+                }
+            ]
+        },
+        "ios-swift-separate-enums": {
+            "transformGroup": "ios-swift-separate",
+            "buildPath": "build/tokens/ios-swift/",
+            "files": [{
+                    "destination": "StyleDictionaryColor.swift",
+                    "format": "ios-swift/enum.swift",
+                    "className": "StyleDictionaryColor",
+                    "filter": {
+                        "type": "color"
+                    }
+                },
+                {
+                    "destination": "StyleDictionarySize.swift",
+                    "format": "ios-swift/enum.swift",
+                    "className": "StyleDictionarySize",
+                    "type": "float",
+                    "filter": {
+                        "category": "size"
+                    }
+                },
+                {
+                    "destination": "StyleDictionaryTypography.swift",
+                    "format": "ios-swift/enum.swift",
+                    "className": "StyleDictionaryTypography",
+                    "filter": {
+                        "category": "typography"
+                    }
+                },
+                {
+                    "destination": "StyleDictionaryBoxShadow.swift",
+                    "format": "ios-swift/enum.swift",
+                    "className": "StyleDictionaryBoxShadow",
+                    "filter": {
+                        "type": "boxShadow"
+                    }
+                }
+            ]
+        },
+        "android": {
+            "transformGroup": "android",
+            "buildPath": "build/tokens/android/",
+            "files": [{
+                    "destination": "size.xml",
+                    "format": "android/resources",
+                    "filter": {
+                        "category": "size"
+                    }
+                },
+                {
+                    "destination": "colors.xml",
+                    "format": "android/resources",
+                    "filter": {
+                        "type": "color"
+                    }
+                },
+                {
+                    "destination": "typography.xml",
+                    "format": "android/resources",
+                    "filter": {
+                        "category": "typography"
+                    }
+                },
+                {
+                    "destination": "boxShadow.xml",
+                    "format": "android/resources",
+                    "filter": {
+                        "type": "boxShadow"
+                    }
+                }
+            ]
+        },
+        "compose": {
+            "transformGroup": "compose",
+            "buildPath": "build/tokens/kotlin/",
+            "files": [{
+                    "destination": "StyleDictionaryColor.kt",
+                    "format": "compose/object",
+                    "className": "StyleDictionaryColor",
+                    "type": "StyleDictionaryColorName",
+                    "filter": {
+                        "type": "color"
+                    }
+                },
+                {
+                    "destination": "StyleDictionarySize.kt",
+                    "format": "compose/object",
+                    "className": "StyleDictionarySize",
+                    "type": "float",
+                    "filter": {
+                        "category": "size"
+                    }
+                },
+                {
+                    "destination": "StyleDictionaryTypography.kt",
+                    "format": "compose/object",
+                    "className": "StyleDictionaryTypography",
+                    "type": "StyleDictionaryTypographyFamily",
+                    "filter": {
+                        "category": "typography"
+                    }
+                },
+                {
+                    "destination": "StyleDictionaryBoxShadow.kt",
+                    "format": "compose/object",
+                    "className": "StyleDictionaryBoxShadow",
+                    "type": "StyleDictionaryBoxShadowName",
+                    "filter": {
+                        "type": "boxShadow"
+                    }
+                }
+            ]
+        }
+    }
+}
