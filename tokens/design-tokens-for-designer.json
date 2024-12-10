@@ -3,7 +3,7 @@
     "color": {
       "global": {
         "primary-100": {
-          "value": "#1DB954",
+          "value": "#24d54e",
           "type": "color",
           "description": "🟡 Token globale: Colore primario rappresenta, a livello cromatico, l’identità del brand"
         },
